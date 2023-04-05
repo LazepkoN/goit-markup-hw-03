@@ -1,0 +1,180 @@
+:root{
+    --light-mode-color: #f4f4fd;
+    --primary-brand-color: #4D5AE5;
+    --dark-mode-color: #2E2F42;
+    --main-text-color: #434455;
+    --main-background-color: #fff;
+    --link-hover-color: #404BBF;
+    --btn-hover-color: #404BBF;
+    --hero-text-color: #fff;
+    --portfolio-btn-color:#f4f4fd;
+
+}
+
+/* ========== Base styles ========== */
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
+    background-color: var(--main-background-color);
+    color: var(--main-text-color);
+}
+
+/* ========== Components ========== */
+.link {
+    text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--link-hover-color);
+}
+
+.list{
+    list-style: none;
+}
+
+.secondary-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: var(--dark-mode-color);
+}
+
+.tertiary-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    
+    color: var(--dark-mode-color);
+}
+
+/* ========== Logo ========== */
+.logo{
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--primary-brand-color);
+}
+
+.logo-header{
+    color: var(--dark-mode-color);
+}
+
+.logo-footer{
+    color: var(--light-mode-color);
+}
+
+/* ========== Header ========== */
+.nav-link {
+    font-weight: 500;
+    color: var(--dark-mode-color);
+}
+
+.contacts{
+    font-style: normal;
+}
+
+.contacts-link {
+    color: inherit;
+}
+
+/* ========== Hero section ========== */
+.hero-section{
+    background-color: var(--dark-mode-color);
+}
+.hero-title{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--hero-text-color);
+}
+
+.order-btn{
+background-color: var(--primary-brand-color);
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+align-items: center;
+letter-spacing: 0.04em;
+
+color: var(--hero-text-color);
+
+cursor: pointer;
+}
+
+.order-btn:hover,
+.order-btn:focus{
+background-color: var(--btn-hover-color);
+}
+
+/* ========== Our preferences ========== */
+.prefernces-desc{
+    font-family: inherit;
+}
+/* ========== Employees ========== */
+.employees-section{
+    background-color: var(--light-mode-color);
+}
+
+.team-card{
+    background-color: var(--main-background-color);
+}
+
+.employee-name{
+    text-align: center;
+}
+
+.employee-position{
+    font-size: 16px;
+}
+/* ========== Footer ========== */
+.footer{
+    background-color: var(--dark-mode-color);
+}
+
+.footer-text{
+    color: var(--light-mode-color);
+}
+
+/* ========== Portfolio page ========== */
+/* ==========                ========== */
+
+.portfolio-btn{
+    background-color: var(--portfolio-btn-color);
+    color: var(--primary-brand-color);
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus{
+    background-color: var(--btn-hover-color);
+    color: #fff;
+}
+
+.portfolio-desc{
+    color: var(--main-text-color);
+}
