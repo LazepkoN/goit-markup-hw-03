@@ -231,7 +231,7 @@ background-color: var(--btn-hover-color);
 
 /* ========== Specialization ========== */
 .specialization-section {
-    padding-bottom: 120px;
+    padding-bottom: 120px 0;
 }
 
 .specialization-list-container {
@@ -261,7 +261,7 @@ gap: var(--grid-gap);
 }
 
 .team-card-thumb {
-    padding: 32px 0;
+    padding: 32px 16px;
 }
 
 .employee-name{
@@ -278,10 +278,14 @@ gap: var(--grid-gap);
     padding: 100px 0;
 }
 
+.footer-logo {
+    display: block;
+    margin-bottom: 16px;
+}
+
 .footer-text{
     color: var(--light-mode-color);
     max-width: 264px;
-    margin-top: 16px;
 }
 
 /* ========== Portfolio page ========== */
