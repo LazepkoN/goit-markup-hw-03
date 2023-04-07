@@ -41,7 +41,7 @@ img {
 
 /* ========== Components ========== */
 .container {
-outline: 2px solid tomato;
+/* outline: 2px solid tomato; */
 
 width: 1158px;
 margin-left: auto;
@@ -340,7 +340,7 @@ gap: var(--grid-gap);
 }
 
 .portfolio-desc-thumb {
-    padding: 32px 0;
+    padding: 32px 16px;
     border: 1px solid #E7E9FC;
     border-top: none;
 }
