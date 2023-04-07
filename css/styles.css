@@ -127,9 +127,12 @@ padding-right: 15px;
     align-items: center;
 }
 
+.header-logo {
+    margin-right: 76px;
+}
+
 .nav-list {
     display: flex;
-    margin-left: 76px;
     gap: 40px;
 }
 
@@ -162,7 +165,7 @@ padding-right: 15px;
     background-color: var(--dark-mode-color);
 }
 
-.hero-container {
+.hero-section {
     padding: 188px 0;
 }
 
