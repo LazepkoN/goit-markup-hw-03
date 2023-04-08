@@ -244,7 +244,7 @@ background-color: var(--btn-hover-color);
 
 /* ========== Specialization ========== */
 .specialization-section {
-    padding-bottom: 120px 0;
+    padding-bottom: 120px;
 }
 
 .specialization-list-container {
